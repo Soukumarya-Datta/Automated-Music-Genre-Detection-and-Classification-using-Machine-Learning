@@ -35,6 +35,9 @@
   <br>This returns a toolbar to play and control the sound clip in the jupyter notebook. It looks like:
   <br><p><img src="Images/player.png"></p>
   2. <b>Wavefrom display:</b> We can track the audio array with the help of ```librosa.display.waveplot```
-  <br> The Waveform looks like:
+  <br><br>The Waveform looks like:
   <br><p><img src="Images/Waveplot.png" width="500"></p>
+  3. <b>Spectogram display:</b>A spectrogram is a visual representation of the spectrum of audio signals or other signal frequencies, as they differ over time. Sometimes, spectrograms are known as sonography, voiceprints, or voice-grams. If the information is depicted in a 3D plot, it might have been known as waterfalls. The first axis is frequency in two-dimensional arrays whilst the second axis is time. We can show the appearance of a spectrogram with the help of ```librosa.display.specshow.```
+  <br><br>The Spectogram looks like:
+  <br><p><img src="Images/Spectogram.png" width="500"></p>
 </div>

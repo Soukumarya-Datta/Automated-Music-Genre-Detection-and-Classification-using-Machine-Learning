@@ -50,4 +50,7 @@
   <br><p><img src="Images/mfcc.png" width="500"></p>
   4. <b>Chroma Frequencies:</b> Chroma technologies are a fascinating and effective depiction for music audio in which the <i>whole range is represented into 12 bins reflecting the musical octave's 12 distinct semitones (or chroma).</i> 
   <br><p><img src="Images/chromagraph.png" width="500"></p>
+  <br><h2>Implementation</h2>
+  1. <b>Training:</b> GTZAN music/speech collection is used as our dataset which is obtained for the purpose of music/talk differentiation. It comprises 120 tracks, each 30 secs in length. Each group (music / speech) has 60 instances. The tracks are 16-bit Mono audio files in <b>.wav</b> format.  For our experiment we took 1000 songs from the dataset and divided it into the ratio of 8:2 for train set and test set respectively. We trained the model with the train set and got <b>82.25%</b>.
+  <br><p><img src="Images/zero.png" width="500"></p>
 </div>

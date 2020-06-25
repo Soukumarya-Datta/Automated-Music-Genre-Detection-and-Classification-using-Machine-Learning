@@ -42,13 +42,12 @@
   <br><p><img src="Images/Spectogram.png" width="500"></p>
   <br><h2>Feature Extracion</h2>
   <br>There are many features in every audio signal. Nonetheless, the appropriate features for the question that we are trying to resolve should be extracted. The extraction method for the study of features is called feature extraction.
-  1. <b>Spectral Centroid:</b> It tells where the <span style="background-color: #FFFF00">"centre of mass"</span> is located for a audio signal, and is measured as the weighted mean of the frequencies present in that audio signal. Take two songs, one of a blues type and one of a metal. Currently, the <mark>metal song has more frequencies towards the end compared to the Blues genre album</mark>, which is the similar throughout its length. Thus, a spectral core for blues is somewhere close to the center of its spectrum, whilst a metal song is at its edge.
+  1. <b>Spectral Centroid:</b> It tells where the <i>"centre of mass"</i> is located for a audio signal, and is measured as the weighted mean of the frequencies present in that audio signal. Take two songs, one of a blues type and one of a metal. Currently, the <i>metal song has more frequencies towards the end compared to the Blues genre album</i>, which is the similar throughout its length. Thus, a spectral core for blues is somewhere close to the center of its spectrum, whilst a metal song is at its edge.
   <br><p><img src="Images/spec&original.png" width="500"></p>
-  2. <b>Zero Crossing Rate:</b> The zero crossing rate is the rate of signal change along a signal, i.e. the rate at which the signal changes from positive to negative or backward. This property was heavily utilized in both recognition of speech and retrieval of music information. For extremely percussive sounds like those in <mark>metal and rock it usually has higher values.</mark>
+  2. <b>Zero Crossing Rate:</b> The zero crossing rate is the rate of signal change along a signal, i.e. the rate at which the signal changes from positive to negative or backward. This property was heavily utilized in both recognition of speech and retrieval of music information. For extremely percussive sounds like those in <i>metal and rock it usually has higher values.</i>
   <br><p><img src="Images/zero.png" width="500"></p>
-  3. <b>Mel-Frequency Cepstral Coefficients:</b> A signal's Mel frequency cepstral coefficients (MFCCs) are a tiny set of characteristics (usually about 10–20) that depict the gross design of a spectral envelope in a concise way. <mark>It molds human voice qualities.</mark>
+  3. <b>Mel-Frequency Cepstral Coefficients:</b> A signal's Mel frequency cepstral coefficients (MFCCs) are a tiny set of characteristics (usually about 10–20) that depict the gross design of a spectral envelope in a concise way. <i>It molds human voice qualities.</i>
   <br><p><img src="Images/mfcc.png" width="500"></p>
-  4. <b>Chroma Frequencies:</b> Chroma technologies are a fascinating and effective depiction for music audio in which the <mark>whole range is represented into 12 bins reflecting the musical octave's 12 distinct semitones (or chroma).</mark> 
-  <span style="background-color:yellow">Yellow Text</span>
+  4. <b>Chroma Frequencies:</b> Chroma technologies are a fascinating and effective depiction for music audio in which the <i>whole range is represented into 12 bins reflecting the musical octave's 12 distinct semitones (or chroma).</i> 
   <br><p><img src="Images/chromagraph.png" width="500"></p>
 </div>

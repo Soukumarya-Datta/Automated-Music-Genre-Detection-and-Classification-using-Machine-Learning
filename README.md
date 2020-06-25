@@ -25,3 +25,11 @@
   1. <b>Input layer:</b> The convolutional layer is the key construction unit of CNN. In this layer we used 512 nodes. With “RELU” as our activation functions.
   2. <b>Hidden layers:</b> It is the layer where all the computational process occurs and this layers play an important role in the CNN. This is three layered with 256, 128 and 64 nodes respectively. The activation function used here is the “RELU”.
   3. <b>Output layer</b>: This is the final layer of our CNN model. This contains only 10 nodes. And we used “Softmax” as our activation function for this layer. The optimizer used here is the “Adam” optimizer and the “sparse categorical crossentropy” as our loss function.</div>
+  <br><h2>LIBROSA</h2>
+  <br><div align="justify">Before we start this project we need to know about the LIBROSA dependency. It is a python dependency for assessment of music and audio. It facilitates the building blocks needed for the creation of music information recovery systems. We used LIBROSA for feature extarction.
+  1. <b>IPython.display.Audio:</b> It is used to play the audio right away in jupyter notebook. It is done in this way:
+  <br><b>import IPython.display as ipd
+  <br>ipd.Audio(audio_path)</b>
+  <br>This returns a toolbar to play and control the sound clip in the jupyter notebook. It looks like:
+  <br><p align="center"><img src="Images/player.png"></p>
+</div>

@@ -4,7 +4,7 @@
 <br>If you want to read the <b>ABSTRACT</b>, it is given below:
   <br><div align="justify">A novel method for classification of different genres of music using Python programming language and its tools has been proposed. Two Python libraries are used namely Librosa and Ipython. Audio is visualized as a Spectrogram and an audio signal is created. After that various features are extracted from the audio signals which are relevant to our problem. After extraction of features existing classification algorithms are used to categorize songs in various genres.</div>
   
-  <br>##Dataset
+  <br><h2>Dataset</h2>
   <br><div align="justify">We used <b>GTZAN</b> music/speech collection dataset which is obtained for the purpose of music/talk differentiation. The dataset comprises 120 tracks, each 30 secs in length. Each group (music/speech) has 60 instances. The tracks are 16-bit Mono audio files in <b>.wav</b> format. 
 <br>This dataset contains audio from 10 different music genres which are:-
   1. Blues

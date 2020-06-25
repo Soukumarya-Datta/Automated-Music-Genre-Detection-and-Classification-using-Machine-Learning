@@ -68,5 +68,5 @@
   7. 	PYE D., “Content-Based Methods for the Management of Digital Music”, 2000.
   8. Tutorial — [librosa 0.7.2 documentation](https://librosa.github.io/librosa/tutorial.html)
   9. Article in [MEDIUM](https://towardsdatascience.com/music-genre-classification-with-python-c714d032f0d8) 
-  <br><p align="center">Thank You!</p>
+  <br><p align="center"><h2>Thank You!</h2></p>
 </div>

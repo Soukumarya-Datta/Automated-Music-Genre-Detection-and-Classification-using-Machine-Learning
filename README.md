@@ -21,4 +21,7 @@
   [GTZAN_dataset](https://www.kaggle.com/carlthome/gtzan-genre-collection)
   <br><h2>Convolutional Neural Network</h2>
   <br><p align="center"><img src="Images/Cnn.png"></p>
-  <br><div align="justify">In a standard CNN architecture there are basically multiple convolutional layers after which comes a stack of pooling layers. At the end we obtained a fully connected layer.</div>
+  <br><div align="justify">In a standard CNN architecture there are basically multiple convolutional layers after which comes a stack of pooling layers. At the end we obtained a fully connected layer.
+  1. <b>Input layer:</b> The convolutional layer is the key construction unit of CNN. In this layer we used 512 nodes. With “RELU” as our activation functions.
+  2. <b>Hidden layers:</b> It is the layer where all the computational process occurs and this layers play an important role in the CNN. This is three layered with 256, 128 and 64 nodes respectively. The activation function used here is the “RELU”.
+  3. <b>Output layer</b>: This is the final layer of our CNN model. This contains only 10 nodes. And we used “Softmax” as our activation function for this layer. The optimizer used here is the “Adam” optimizer and the “sparse categorical crossentropy” as our loss function.</div>

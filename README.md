@@ -52,5 +52,10 @@
   <br><p><img src="Images/chromagraph.png" width="500"></p>
   <br><h2>Implementation</h2>
   1. <b>Training:</b> GTZAN music/speech collection is used as our dataset which is obtained for the purpose of music/talk differentiation. It comprises 120 tracks, each 30 secs in length. Each group (music / speech) has 60 instances. The tracks are 16-bit Mono audio files in <b>.wav</b> format.  For our experiment we took 1000 songs from the dataset and divided it into the ratio of 8:2 for train set and test set respectively. We trained the model with the train set and got <b>82.25%</b>.
-  <br><p><img src="Images/zero.png" width="500"></p>
+  <br><p><img src="Images/train_acc.png" width="500"></p>
+  2. <b>Testing:</b> Then we compared it with the test set which gave us the accuracy of <b>59.5%</b>. Since the test accuracy is much lower than the train accuracy this shows clearly that <b>overfitting</b> has occurred.
+  <br><p><img src="Images/test_acc.png" width="500"></p>
+  3. <b>Removing Overfitting:</b> To remove the overfitting we did a validation approach by dividing the  train set to validation set which is in the ratio of 1:3 of the train set. Then we build a 5 layered CNN model to train it with the validation set. The optimizer used here is the Adam optimizer. Sparse Categorical Crossentropy is used as our loss function. The accuracy after the validation approach is 64.5%.
+  <br><p><img src="Images/over.png" width="500"></p>
+  <br><br>This is my implementation. Hope it helps! 
 </div>

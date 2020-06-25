@@ -48,8 +48,7 @@
   <br><p><img src="Images/zero.png" width="500"></p>
   3. <b>Mel-Frequency Cepstral Coefficients:</b> A signal's Mel frequency cepstral coefficients (MFCCs) are a tiny set of characteristics (usually about 10–20) that depict the gross design of a spectral envelope in a concise way. <mark>It molds human voice qualities.</mark>
   <br><p><img src="Images/mfcc.png" width="500"></p>
-  4. <b>Chroma Frequencies:</b> Chroma technologies are a fascinating and effective depiction for music audio in which the <mark>whole range is represented into 12 bins reflecting the musical octave's 12 distinct semitones (or chroma).</mark> <div class="bg-yellow-light mb-2">
-  .text-gray-dark on .bg-yellow-light
-</div>
+  4. <b>Chroma Frequencies:</b> Chroma technologies are a fascinating and effective depiction for music audio in which the <mark>whole range is represented into 12 bins reflecting the musical octave's 12 distinct semitones (or chroma).</mark> 
+  <span style="background-color:yellow">Yellow Text</span>
   <br><p><img src="Images/chromagraph.png" width="500"></p>
 </div>

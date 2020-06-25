@@ -58,4 +58,15 @@
   3. <b>Removing Overfitting:</b> To remove the overfitting we did a validation approach by dividing the  train set to validation set which is in the ratio of 1:3 of the train set. Then we build a 5 layered CNN model to train it with the validation set. The optimizer used here is the Adam optimizer. Sparse Categorical Crossentropy is used as our loss function. The accuracy after the validation approach is 64.5%.
   <br><p><img src="Images/over.png" width="500"></p>
   <br><br>This is my implementation. Hope it helps!: [PYTHON IMPLEMENTATION](https://github.com/Soukumarya-Datta/Automated-Music-Genre-Detection-and-Classification-using-Machine-Learning/blob/master/Automated%20Music%20Genre%20Classification%20Using%20Machine%20Learning.py)
+  <br><h2>References</h2>
+  1. HASITHA B. ARIYARATNE, ZHANG D., “A Novel Automatic Hierarchical Approach to Music Genre Classification”, 2012 IEEE International Conference on Multimedia and Expo Workshops, 2012.
+  2. TZANETAKIS G., “Musical Genre Classification of Audio Signals”, IEEE TRANSACTIONS ON SPEECH AND AUDIO PROCESSING, VOL. 10, NO. 5, JULY 2002.
+  3. ZHANG T., “Semi-Automatic Approach for Music Classification”, Proceedings of SPIE Vol. 5242 Internet Multimedia Management Systems IV, 2003.
+  4. CARINGELLA N., ZOIA G. and MLYNEKTHEM D., “Automatic Genre  Classification of Music Content ”,  IEEE SIGNAL PROCESSING MAGAZINE, MARCH 2003.
+  5. TZANETAKIS G. AND COOK P., “SOUND ANALYSIS USING MPEG COMPRESSED AUDIO”, 2000.
+  6. SCHEIRER E., “Tempo and Beat Analysis of Acoustic Music Signals”, 15 SEPTEMBER 1997
+  7. 	PYE D., “Content-Based Methods for the Management of Digital Music”, 2000.
+  8. Tutorial — [librosa 0.7.2 documentation](https://librosa.github.io/librosa/tutorial.html)
+  9. Article in [MEDIUM](https://towardsdatascience.com/music-genre-classification-with-python-c714d032f0d8) 
+  <br><p align="center">Thank You!</p>
 </div>

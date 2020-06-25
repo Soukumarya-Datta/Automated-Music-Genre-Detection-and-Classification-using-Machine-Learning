@@ -27,11 +27,14 @@
   3. <b>Output layer</b>: This is the final layer of our CNN model. This contains only 10 nodes. And we used “Softmax” as our activation function for this layer. The optimizer used here is the “Adam” optimizer and the “sparse categorical crossentropy” as our loss function.</div>
   <br><h2>LIBROSA</h2>
   <br><div align="justify">Before we start this project we need to know about the LIBROSA dependency. It is a python dependency for assessment of music and audio. It facilitates the building blocks needed for the creation of music information recovery systems. We used LIBROSA for feature extarction.
-  1. <b>IPython.display.Audio:</b> It is used to play the audio right away in jupyter notebook. It is done in this way:
-<b>```
+  1. <b>Audio Player:</b> It is used to play the audio right away in jupyter notebook. It is done in this way:
+  ```
   import IPython.display as ipd
   ipd.Audio(audio_path)
-  ```</b>
+  ```
   <br>This returns a toolbar to play and control the sound clip in the jupyter notebook. It looks like:
   <br><p><img src="Images/player.png"></p>
+  2. <b>Wavefrom display:</b> We can track the audio array with the help of ```librosa.display.waveplot```
+  <br> The Waveform looks like:
+  <br><p><img src="Images/Waveplot.png"></p>
 </div>

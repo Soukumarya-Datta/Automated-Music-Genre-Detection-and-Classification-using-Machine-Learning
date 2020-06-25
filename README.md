@@ -57,5 +57,5 @@
   <br><p><img src="Images/test_acc.png" width="500"></p>
   3. <b>Removing Overfitting:</b> To remove the overfitting we did a validation approach by dividing the  train set to validation set which is in the ratio of 1:3 of the train set. Then we build a 5 layered CNN model to train it with the validation set. The optimizer used here is the Adam optimizer. Sparse Categorical Crossentropy is used as our loss function. The accuracy after the validation approach is 64.5%.
   <br><p><img src="Images/over.png" width="500"></p>
-  <br><br>This is my implementation. Hope it helps!: [PYTHON IMPLEMENTATION](Automated Music Genre Classification Using Machine Learning.py)
+  <br><br>This is my implementation. Hope it helps!: [PYTHON IMPLEMENTATION](https://github.com/Soukumarya-Datta/Automated-Music-Genre-Detection-and-Classification-using-Machine-Learning/blob/master/Automated%20Music%20Genre%20Classification%20Using%20Machine%20Learning.py)
 </div>
